@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!--[if IE 7]>    <html lang="en-us" class="html no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html lang="en-us" class="html no-js lt-ie9"> <![endif]-->
+<!--[if IE 9]>    <html lang="en-us" class="html no-js ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en-us" class="html no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8"/>
+		<title>Fluid Responsive Base</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" href="/css/base.css" />
+		<link rel="stylesheet" type="text/css" href="/css/fluid-grid.css" />
+		<style>
+			/* For examples */
+			h1, h2 { text-align:center; }
+			.module { min-height:100px; background:#999; color:#fff; }
+			.module:nth-child(even) { background:#777; }
+		</style>
+		<script src="/js/respond.min.js"></script>
+	</head>
+	<body>
+		<h1>Responsive Fluid Grid</h1>
+		<h2>With GUTTERS</h2>
+		<div class="container clearfix">
+			<div class="grid-col grid-12">
+				<div class="module">
+					Full Width - Grid 12
+				</div>
+			</div>
+		</div>
+		<div class="container sw-1half m-1half clearfix">
+			<div class="grid-col grid-6">
+				<div class="module">
+					Half Width - Grid 6
+				</div>
+			</div>
+			<div class="grid-col grid-6">
+				<div class="module">
+					Half Width - Grid 6
+				</div>
+			</div>
+		</div>
+		<div class="container s-1half sw-1half m-2thirds-left clearfix">
+			<div class="grid-col grid-8">
+				<div class="module">
+					Half Width - Grid 8
+				</div>
+			</div>
+			<div class="grid-col grid-4">
+				<div class="module">
+					Half Width - Grid 4
+				</div>
+			</div>
+		</div>
+
+		<div class="container m-2thirds-right clearfix">
+			<div class="grid-col grid-4">
+				<div class="module">
+					One quarter - Grid 4
+				</div>
+			</div>
+			<div class="grid-col grid-8">
+				<div class="module">
+					Three quarters - Grid 8
+				</div>
+			</div>
+		</div>
+
+		<div class="container m-1third clearfix">
+			<div class="grid-col grid-4">
+				<div class="module">
+					One Third Width - Grid 4
+				</div>
+			</div>
+			<div class="grid-col grid-4">
+				<div class="module">
+					One Third Width - Grid 4
+				</div>
+			</div>
+			<div class="grid-col grid-4">
+				<div class="module">
+					One Third Width - Grid 4
+				</div>
+			</div>
+		</div>
+
+		<div class="container s-1half sw-1half m-1half clearfix">
+			<div class="grid-col grid-3">
+				<div class="module">
+					One Quarter Width - Grid 3
+				</div>
+			</div>
+			<div class="grid-col grid-3">
+				<div class="module">
+					One Quarter Width - Grid 3
+				</div>
+			</div>
+			<div class="grid-col grid-3">
+				<div class="module">
+					One Quarter Width - Grid 3
+				</div>
+			</div>
+			<div class="grid-col grid-3">
+				<div class="module">
+					One Quarter Width - Grid 3
+				</div>
+			</div>
+		</div>
+		
+		
+		<!-------------- DIVIDER FOR possibly better READABILITY ------------------------>
+		
+		
+		<h2>WITHOUT Gutters</h2>
+	
+		<div class="container sw-1half m-1half gutterless clearfix">
+			<div class="grid-col grid-6">
+				<div class="module">
+					Half Width - Grid 6 &amp;&amp; small-wide, medium 1/2
+				</div>
+			</div>
+			<div class="grid-col grid-6">
+				<div class="module">
+					Half Width - Grid 6
+				</div>
+			</div>
+		</div>
+		<div class="container s-1half sw-1half m-2thirds-left gutterless clearfix">
+			<div class="grid-col grid-8">
+				<div class="module">
+					Half Width - Grid 8 &amp;&amp; medium size 2/3 left &amp;&amp; small, small-wide 1/2
+				</div>
+			</div>
+			<div class="grid-col grid-4">
+				<div class="module">
+					Half Width - Grid 4 &amp;&amp; medium size 2/3 left &amp;&amp; small, small-wide 1/2
+				</div>
+			</div>
+		</div>
+
+		<div class="container m-2thirds-right gutterless clearfix">
+			<div class="grid-col grid-4">
+				<div class="module">
+					One quarter - Grid 4 &amp;&amp; medium size 2/3 right
+				</div>
+			</div>
+			<div class="grid-col grid-8">
+				<div class="module">
+					Three quarters - Grid 8 &amp;&amp; medium size 2/3 right
+				</div>
+			</div>
+		</div>
+
+		<div class="container gutterless clearfix">
+			<div class="grid-col grid-4">
+				<div class="module">
+					One Third Width - Grid &amp;&amp; we will just break down without any special overwrites
+				</div>
+			</div>
+			<div class="grid-col grid-4">
+				<div class="module">
+					One Third Width - Grid 4 &amp;&amp; we will just break down without any special overwrites
+				</div>
+			</div>
+			<div class="grid-col grid-4">
+				<div class="module">
+					One Third Width - Grid 4 &amp;&amp; we will just break down without any special overwrites
+				</div>
+			</div>
+		</div>
+
+		<div class="container s-1half sw-1half m-1half gutterless clearfix">
+			<div class="grid-col grid-3">
+				<div class="module">
+					One Quarter Width - Grid 3 &amp;&amp; small, small-wide, and medium 1/2 
+				</div>
+			</div>
+			<div class="grid-col grid-3">
+				<div class="module">
+					One Quarter Width - Grid 3 &amp;&amp; small, small-wide, and medium 1/2 
+				</div>
+			</div>
+			<div class="grid-col grid-3">
+				<div class="module">
+					One Quarter Width - Grid 3 &amp;&amp; small, small-wide, and medium 1/2 
+				</div>
+			</div>
+			<div class="grid-col grid-3">
+				<div class="module">
+					One Quarter Width - Grid 3 &amp;&amp; small, small-wide, and medium 1/2 
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
