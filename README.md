@@ -8,10 +8,15 @@ After going through many versions of grids, percentages, and responsive designs,
 The main push of this version is to allow you to make your own layouts for different screen resolutions, rather than just falling back to 100% once you hit most handheld landscape view. I assume a bit with what most users would like to have for their different views (number of columns). Another aspect, is that this should progressively enhance into what you want. 
 
 The path goes:
+
 s  ( small [ ~ handheld ] ) 
+
 sw ( small wide [ ~ handheld landdscape ] ) 
+
 m  ( medium [ ~ tablet portrait ] ) 
+
 mw ( medium wide [ ~ lower end desktop size / tablet landscape ] ) 
+
 l  ( large [ ~ wider desktops ] )
 
 That's right after much discussion over the Internets, I understand that really we might want to shy away from saying phone, tablet, and desktop. Mobile is more a state of mind than an actual size now that more and more devices access the web. Laptops are becoming the majority "desktop" experience. Why not just call them like the sizes they are? 
