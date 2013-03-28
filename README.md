@@ -9,12 +9,6 @@ The main push of this version is to allow you to make your own layouts for diffe
 
 The path goes:
 
-<<<<<<< HEAD
-s  ( small [ ~ handheld ] )
-sw ( small wide [ ~ handheld landdscape ] )
-m  ( medium [ ~ tablet portrait ] )
-mw ( medium wide [ ~ lower end desktop size / tablet landscape ] )
-=======
 s  ( small [ ~ handheld ] ) 
 
 sw ( small wide [ ~ handheld landdscape ] ) 
@@ -23,7 +17,6 @@ m  ( medium [ ~ tablet portrait ] )
 
 mw ( medium wide [ ~ lower end desktop size / tablet landscape ] ) 
 
->>>>>>> 61b6dea3e892f408821fd574d0d0338448df7206
 l  ( large [ ~ wider desktops ] )
 
 That's right after much discussion over the Internets, I understand that really we might want to shy away from saying phone, tablet, and desktop. Mobile is more a state of mind than an actual size now that more and more devices access the web. Laptops are becoming the majority "desktop" experience. Why not just call them like the sizes they are? 
@@ -47,4 +40,3 @@ That's right after much discussion over the Internets, I understand that really 
 * Respond.js: IE8- just needs it. This helps handle your media queries since older IE doesn't quite grasp them. But wait, there's an extra bonus in there. Max-width on box-sizing elements in IE8 fail and that makes many a sad panda. Respond.js has the extra firepower that kicks IE back into shape and max-width works again. (The max-height/min-height issues with some browsers is another story and let's just hope you don't need to use them ( ^_~)
 
 * Box-sizing. It is the key piece in all of this so you better thank it properly. But the person I'm designing for thinks IE7 is the bees-knees. Well, too bad! Okay, you might try a polyfill for box-sizing as well. 
-
