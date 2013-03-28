@@ -42,8 +42,8 @@
 
 /* Max width should be fine as 48em because the next set up overwrites the prior styles */
 
-/* 16px baseline (420px - 768px) s-w = small wide */
-@media only screen and (min-width:30em) and (max-width:48em){
+/* 16px baseline ( 420px+ ) s-w = small wide [ Usually 420-768px but why not just progressively grow ]*/
+@media only screen and (min-width:30em) {
 	.sw-1half .grid-col { width:50%; }
 	.sw-1third .grid-col { width:33.333%; }
 }
@@ -68,15 +68,17 @@
 @media only screen and (min-width:48em) and (max-width:60em){
 	.m-1half .grid-col { width:50%; }
 	.m-1third .grid-col { width:33.333%; }
+	.m-1third-center .grid-col { width:33.333%; }
+	.m-1third-center .grid-col:nth-child(n) { width:27%; }
+	.m-1third-center .grid-col:nth-child(3n+2) { width:46%; }
 	.m-1fourth .grid-col { width:25%; }
 	
-	.m-2thirds-left .grid-col { width:25%; }
+	/* Progressively enhanced for browsers that understand nth-child without*/
+	.m-2thirds-left .grid-col, .m-2thirds-right .grid-col { width:50%; }
+	.m-2thirds-left .grid-col:nth-child(2n) { width:25%; }
 	.m-2thirds-left .grid-col:nth-child(2n+1) { width:75%; }
-	.m-2thirds-right .grid-col { width:25%; }
 	.m-2thirds-right .grid-col:nth-child(2n) { width:75%; }
-	
-	.lt-ie9 .m-2thirds-left .grid-col,
-	.lt-ie9 .m-2thirds-right .grid-col { width:50%; }
+	.m-2thirds-right .grid-col:nth-child(2n+1) { width:25%; }
 }
 
 /* 16px baseline (960px - 1139px) m-w = medium wide which is approximate desktop minimal sizing*/ 
