@@ -9,10 +9,21 @@ The main push of this version is to allow you to make your own layouts for diffe
 
 The path goes:
 
+<<<<<<< HEAD
 s  ( small [ ~ handheld ] )
 sw ( small wide [ ~ handheld landdscape ] )
 m  ( medium [ ~ tablet portrait ] )
 mw ( medium wide [ ~ lower end desktop size / tablet landscape ] )
+=======
+s  ( small [ ~ handheld ] ) 
+
+sw ( small wide [ ~ handheld landdscape ] ) 
+
+m  ( medium [ ~ tablet portrait ] ) 
+
+mw ( medium wide [ ~ lower end desktop size / tablet landscape ] ) 
+
+>>>>>>> 61b6dea3e892f408821fd574d0d0338448df7206
 l  ( large [ ~ wider desktops ] )
 
 That's right after much discussion over the Internets, I understand that really we might want to shy away from saying phone, tablet, and desktop. Mobile is more a state of mind than an actual size now that more and more devices access the web. Laptops are becoming the majority "desktop" experience. Why not just call them like the sizes they are? 
