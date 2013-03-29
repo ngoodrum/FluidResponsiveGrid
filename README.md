@@ -11,7 +11,7 @@ The path goes:
 
 s  ( small [ ~ handheld ] ) 
 
-sw ( small wide [ ~ handheld landdscape ] ) 
+sw ( small wide [ ~ handheld landscape ] ) 
 
 m  ( medium [ ~ tablet portrait ] ) 
 
