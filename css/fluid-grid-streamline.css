@@ -9,10 +9,10 @@
 	min-width:16em; 
 	max-width:80em;
 	-webkit-transition: all .1s linear;
-       -moz-transition: all .1s linear;
-        -ms-transition: all .1s linear; 
+	   -moz-transition: all .1s linear;
+	    -ms-transition: all .1s linear; 
 	     -o-transition: all .1s linear;
-            transition: all .1s linear;
+	        transition: all .1s linear;
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
@@ -29,7 +29,7 @@
 .gutterless [class^="grid"] { padding:0; }
 
 
-img.fluid { width:100% !important; height:auto !important; }
+img.fluid { max-width:100%; height:auto !important; }
 
 /* 16px baseline (256px) s = small */
 @media only screen and (min-width:16em) {
