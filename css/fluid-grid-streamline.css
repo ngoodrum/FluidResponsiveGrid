@@ -29,7 +29,7 @@
 .gutterless [class^="grid"] { padding:0; }
 
 
-img.fluid { width:100% !important; height:auto !important; }
+img.fluid { max-width:100%; height:auto !important; }
 
 /* 16px baseline (256px) s = small */
 @media only screen and (min-width:16em) {
