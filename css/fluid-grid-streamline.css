@@ -46,11 +46,11 @@ img.fluid { max-width:100%; height:auto !important; }
 
 /* 16px baseline (480px - 767px) sw = small wide */
 @media only screen and (min-width:30em) and (max-width:47.94em){
-	.sw_1half [class*="grid-"] { width:50%; }
+	.sw_1half [class*="grid_"] { width:50%; }
 	.sw_1half [class*="push_"] { left:50%; }
 	.sw_1half [class*="pull_"] { left:-50%; }
 	
-	.sw_1third [class*="grid-"] { width:33.333%; }
+	.sw_1third [class*="grid_"] { width:33.333%; }
 	.sw_1third [class*="push_"] { left:33.333%; }
 	.sw_1third [class*="pull_"] { left:-33.333%; }
 }
