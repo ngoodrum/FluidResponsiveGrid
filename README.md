@@ -40,3 +40,9 @@ That's right after much discussion over the Internets, I understand that really 
 * Respond.js: IE8- just needs it. This helps handle your media queries since older IE doesn't quite grasp them. But wait, there's an extra bonus in there. Max-width on box-sizing elements in IE8 fail and that makes many a sad panda. Respond.js has the extra firepower that kicks IE back into shape and max-width works again. (The max-height/min-height issues with some browsers is another story and let's just hope you don't need to use them ( ^_~)
 
 * Box-sizing. It is the key piece in all of this so you better thank it properly. But the person I'm designing for thinks IE7 is the bees-knees. Well, too bad! Okay, you might try a polyfill for box-sizing as well. 
+
+
+##Prefix & Suffix
+
+These are used to create "dead space" and empty columns while not affecting display order.
+
