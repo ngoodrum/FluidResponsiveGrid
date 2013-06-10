@@ -145,6 +145,31 @@
 	.container .pull_11 { left:-91.666%; }
 	.container .pull_12 { left:-100%; }
 	
+	.container .prefix_1  { margin-left:8.333%; }
+	.container .prefix_2  { margin-left:16.666%; }
+	.container .prefix_3  { margin-left:25%; }
+	.container .prefix_4  { margin-left:33.333%; }
+	.container .prefix_5  { margin-left:41.666%; }
+	.container .prefix_6  { margin-left:50%; }
+	.container .prefix_7  { margin-left:58.333%; }
+	.container .prefix_8  { margin-left:66.666%; }
+	.container .prefix_9  { margin-left:75%; }
+	.container .prefix_10 { margin-left:83.333%; }
+	.container .prefix_11 { margin-left:91.666%; }
+	.container .prefix_12 { margin-left:100%; }
+	                  _
+	.container .suffix_1  { margin-right:8.333%; }
+	.container .suffix_2  { margin-right:16.666%; }
+	.container .suffix_3  { margin-right:25%; }
+	.container .suffix_4  { margin-right:33.333%; }
+	.container .suffix_5  { margin-right:41.666%; }
+	.container .suffix_6  { margin-right:50%; }
+	.container .suffix_7  { margin-right:58.333%; }
+	.container .suffix_8  { margin-right:66.666%; }
+	.container .suffix_9  { margin-right:75%; }
+	.container .suffix_10 { margin-right:83.333%; }
+	.container .suffix_11 { margin-right:91.666%; }
+	.container .suffix_12 { margin-right:100%; }
 }
 
 /* ## 16px baseline (768px - 959px) m = medium ## */ 
@@ -166,12 +191,16 @@
 	.m_2thirds_left > [class*="grid_"]:nth-child(2n+1) { width:66.666%; }
 	.m_2thirds_left > [class*="push_"] { left:0; }
 	.m_2thirds_left > [class*="pull_"] { left:0; }
+	.m_2thirds_left > [class*="prefix_"] { margin-left:0; }
+	.m_2thirds_left > [class*="suffix_"] { margin-right:0; }
 	
 	.m_2thirds_right > [class*="grid_"] { width:50%; }
 	.m_2thirds_right > [class*="grid_"]:nth-child(2n)   { width:66.666%; }
 	.m_2thirds_right > [class*="grid_"]:nth-child(2n+1) { width:33.333%; }
 	.m_2thirds_right > [class*="push_"] { left:0; }
 	.m_2thirds_right > [class*="pull_"] { left:0; }	
+	.m_2thirds_right > [class*="prefix_"] { margin-left:0; }
+	.m_2thirds_right > [class*="suffix_"] { margin-right:0; }
 	
 }
 
